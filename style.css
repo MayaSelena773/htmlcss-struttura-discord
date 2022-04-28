@@ -1,0 +1,62 @@
+/*common*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    /*test*/
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+.header-top{
+    /*test*/
+    display: flex;
+    width: 80%;
+    border: 1px dotted;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkmenu{
+    list-style-type: none;
+}
+
+.background{
+    /*test*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+
+.pinksquare{
+    background-color: blueviolet;
+    height: 200px;
+    width: 400px;
+}
+
+.boxlb{
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.boxpk{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}
