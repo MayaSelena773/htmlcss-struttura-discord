@@ -48,6 +48,7 @@ header{
     background-color: blueviolet;
     height: 200px;
     width: 400px;
+    border: 1px dotted;
 }
 
 .backwhite{
@@ -57,19 +58,94 @@ header{
 }
 
 .backgrey{
+    display: flex;
     background-color: grey;
     width: auto;
     padding: 20px;
+    justify-content: center;
 }
 .boxlb{
     background-color: lightblue;
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+    border: 1px dotted;
 }
 
 .boxpk{
     background-color: pink;
     height: 200px;
     width: 200px;
+    border: 1px dotted;
 }
+
+.greensquare{
+    display: flex;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    border: 1px dotted;
+}
+
+/*footer*/
+.backblack{
+    display: flex;
+    background-color: black;
+    width: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.aside{
+    background-color: pink;
+    width: 200px;
+    height: 300px;
+    border: 1px dotted;
+}
+
+.columns{
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+    border: 1px dotted;
+    display: flex;
+}
+
+.col{
+    border: 1px dotted white;
+    width: calc(100% / 4);
+    height: 300px;
+}
+
+.lastcontainer{
+    background-color: black;
+    width: auto;
+    height: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.foot{ 
+    background-color: white ;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    border: 1px dotted;
+    width: auto;
+    height: 30px;
+}
+
+.btn{
+    border: 1px dotted;
+    width: auto;
+    height: 30px;
+}
+
+
