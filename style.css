@@ -10,12 +10,12 @@
     justify-content: center;
 }
 
+/*header*/
 header{
     /*test*/
     background-color: aquamarine;
     height: 50px;
     display: flex;
-    margin-bottom: 10px;
     flex-direction: row;
 }
 
@@ -32,6 +32,7 @@ header{
     list-style-type: none;
 }
 
+/*main*/
 .background{
     /*test*/
     display: flex;
@@ -40,6 +41,7 @@ header{
     background-color: blue;
     height: 300px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .pinksquare{
@@ -48,6 +50,17 @@ header{
     width: 400px;
 }
 
+.backwhite{
+    background-color: lightgreen;
+     width: auto;
+     padding: 20px;
+}
+
+.backgrey{
+    background-color: grey;
+    width: auto;
+    padding: 20px;
+}
 .boxlb{
     background-color: lightblue;
     height: 200px;
