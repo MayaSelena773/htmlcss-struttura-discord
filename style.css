@@ -23,13 +23,20 @@ header{
     /*test*/
     display: flex;
     width: 80%;
-    border: 1px dotted;
+    
     align-items: center;
     justify-content: space-around;
 }
 
 .linkmenu{
     list-style-type: none;
+    border: 1px dotted;
+}
+.logo{
+    border: 1px dotted;
+}
+.login{
+    border: 1px dotted;
 }
 
 /*main*/
